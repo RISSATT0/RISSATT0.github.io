@@ -1,0 +1,155 @@
+/*
+body{
+    background: #C1CDC1;
+}
+/*add style produtos = cabecalho*
+.header{
+    background: url("../img/bg.jpg");
+}
+.caixa{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+.imagem-cabecalho{
+    width: 25%;
+}
+nav{
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+nav li{
+    display: inline;
+        /*cima direita baixo esquerda*
+    margin: 0    0       0     15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/*############*
+.banner{
+    width: 100%;
+    
+}
+.texto-centralizado{
+    text-align: center;
+}
+p{
+    padding-left: 20px;
+}
+em strong{
+    color: red;
+}
+#missao {
+    font-size: 20px;
+} 
+ul{
+    display: inline-block;
+    margin-right: 30%;
+    vertical-align: top;
+}
+.img-beneficios{
+    width: 35%;
+}
+/*#################*
+.sobre{
+    background: yellow;
+    text-align: center;
+}
+.sobre h1{
+    font-weight: bold;
+    font-size: 22px;
+    margin: 20px auto;
+}
+.beneficios{
+    background: white;
+}
+
+
+/*################## NEW ###############*/
+.banner{
+    width: 100%;
+}
+.titulo_principal{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-shadow: 10px 10px 10px red;
+}
+.titulo_principal::first-letter{
+    font-size: 60px;
+}
+.imagem_prato{
+    width: 150px;
+    float: left;
+    /*Cima Direita Baixo Esquerda*/
+    margin: 0 20px 20px 0;
+}
+.sobre{
+    background: linear-gradient(45deg,blue,yellow);
+}
+.sobre,.mapa_conteudo, .beneficios{
+    width: 940px;
+    margin: 0 auto;
+}
+.sobre p{
+    margin: 1em;
+}
+.sobre strong{
+    font-weight: bold;
+}
+.sobre em{
+    font-size: italic;
+}
+.mapa{
+    padding: 3em 0;
+    /*background: linear-gradient(#fefefe, gray);*/
+}
+.mapa p{
+    margin-bottom: 2em;
+    text-align: center;
+}
+.beneficios{
+    clear: left;
+    /*background: #888;*/
+}
+.conteudo_beneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+.lista_beneficios{
+    display: inline-block;
+    margin-right: 60%;
+    vertical-align: top;
+}
+.itens{
+    line-height: 1.5;
+}
+.itens:nth-child(1){
+    font-weight: bold;
+}
+.itens::before{
+    content: "[" ;
+}
+.itens::after{
+    content: "]";
+}
+.imagem_beneficios{
+    width: 40%;
+    opacity: 1;
+    transition: 0.5s;
+            /*x     y   blur    int     color*/
+    box-shadow: 10px 10px 10px #000;
+}
+.video{
+    width: 560px;
+    margin: 2em auto;
+}
+

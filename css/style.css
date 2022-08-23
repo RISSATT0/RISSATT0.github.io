@@ -1,0 +1,61 @@
+/*
+body{
+    background: #C1CDC1;
+}
+
+.header{
+    background: url("../img/bg.jpg");
+}
+.caixa{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+.imagem-cabecalho{
+    width: 25%;
+}
+nav{
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+nav li{
+    display: inline;
+        *cima direita baixo esquerda*
+    margin: 0    0       0     15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+*/
+body{
+    background: #C1CDC1; 
+}
+.banner{
+    width: 100%;
+    
+}
+.texto-centralizado{
+    text-align: center;
+}
+p{
+    padding-left: 20px;
+}
+em strong{
+    color: red;
+}
+#missao {
+    font-size: 20px;
+} 
+ul{
+    display: inline-block;
+    margin-right: 30%;
+    vertical-align: top;
+}
+.img-beneficios{
+    width: 35%;
+}
